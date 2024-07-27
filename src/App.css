@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Madani-Arabic-Light";
+  src: url("../public/assets/fonts/Madani-Arabic-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Madani-Arabic-Semi-Bold";
+  src: url("../public/assets/fonts/Madani-Arabic-Semi-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("../public/assets/fonts/DMSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url("../public/assets/fonts/DMSans-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url("../public/assets/fonts/DMSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url("../public/assets/fonts/DMSans-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-VariableFont";
+  src: url("../public/assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Regular";
+  src: url("../public/assets/fonts/IBMPlexSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBMPlexBold";
+  src: url("../public/assets/fonts/IBMPlexSans-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MadaniArabic-Regular";
+  src: url("../public/assets/fonts/MadaniArabic-Regular.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.number {
+  direction: ltr;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
