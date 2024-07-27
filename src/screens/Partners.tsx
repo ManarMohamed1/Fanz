@@ -56,14 +56,14 @@ const Partners = () =>{
             <div className="flex justify-center md:w-[600px] items-center mt-[-30px] xl:w-[800px] xl:ml-20 lg:w-[800px] -md:mt-5 space-x-28 md:space-x-16 lg:ml-20  md:ml-4 rtl:space-x-2  rtl:md:space-x-10 rtl:lg:mr-20 rtl:gap-10 rtl:md:gap-4 rtl:md:mr-10 rtl:xl:mr-20">
               <div className="border border-white border-opacity-50 h-40 w-[270px] -mt-14 relative rounded-md md:h-[90px]">
                 <img
-                  className="mt-10 xl:mt-[22px] lg:mt-[0rem] xl:h-[115px] xl:w-[232px] lg:h-[158px] lg:w-[232px] 2xl:h-[157px] 2xl:mt-0 2xl:ml-[3.5rem] md:h-[88px] md:w-[155px] rtl:md:w-[160px] md:mt-0 ml-24 xl:ml-0 lg:ml-[2.5rem] ltr:lg:ml-0 md:ml-0"
+                  className="mt-10 xl:mt-[0px] lg:mt-[0rem] xl:h-[158px] xl:w-[232px] lg:h-[158px] lg:w-[232px] 2xl:h-[157px] 2xl:mt-0 2xl:ml-[3.5rem] md:h-[88px] md:w-[155px] rtl:md:w-[160px] md:mt-0 ml-24 xl:ml-0 lg:ml-[2.5rem] ltr:lg:ml-0 md:ml-0"
                   src="/assets/images/company-logo-3.png"
                   alt=""
                 />
               </div>
               <div className="border border-white border-opacity-50 h-40 w-[270px] mt-[-60px] rounded-md md:h-[90px]">
                 <img
-                  className="ml-10 rtl:mr-0 mt-10 rtl:lg:m-6 xl:mt-0.5 xl:ml-4 lg:ml-px  xl:h-[150px] xl:w-[150px] md:ml-1 2xl:mt-0 2xl:ml-0 rtl:md:mr-4 md:h-[150px] md:w-[150px] md:mt-[-30px]"
+                  className="ml-10 rtl:mr-0 mt-10 rtl:lg:m-6 xl:mt-0 xl:ml-0 lg:ml-px  xl:h-[158px] xl:w-[235px] md:ml-1 2xl:mt-0 2xl:ml-0 rtl:md:mr-4 md:h-[150px] md:w-[150px] md:mt-[-30px]"
                   src="/assets/images/company-logo-2.png"
                   alt=""
                 />

@@ -66,7 +66,7 @@ const HeroBanner = () => {
               <div
                 className={`
             ${i18n.language === "ar" ? "xl:ml-auto xl:pr-[170px]" : ""}
-            text-lavenderColor text-[64px] font-subTitle leading-[90.60px] animate-fade-up animate-once animate-duration-500 animate-delay-[222ms] animate-ease-out animate-alternate animate-fill-both`}
+            text-lavenderColor text-[64px] font-subTitle leading-[90.60px] animate-fade-right animate-once animate-duration-700 animate-delay-400 animate-ease-in`}
               >
                 {t("containers.HeroSectionContainer.title")}
                 <br />
@@ -74,12 +74,12 @@ const HeroBanner = () => {
               <div
                 className={`${
                   i18n.language === "ar" ? "xl:ml-auto xl:pr-[170px]" : ""
-                } text-textblack text-[32px] lg:text-[20px] xl:text-[25px] font-title1 leading-9 text-left animate-fade-up animate-once animate-duration-500 animate-delay-[222ms] animate-ease-out animate-alternate animate-fill-both`}
+                } text-textblack text-[32px] lg:text-[20px] xl:text-[25px] font-title1 leading-9 text-left animate-fade-right animate-once animate-duration-700 animate-delay-600 animate-ease-in`}
               >
                 {t("containers.HeroSectionContainer.subtitle")}
               </div>
             </div>
-            <div className="flex pr-[250px] pt-[40px] lg:pr-[800px] animate-fade-up animate-once animate-duration-500 animate-delay-[222ms] animate-ease-out animate-alternate animate-fill-both">
+            <div className="flex pr-[250px] pt-[40px] lg:pr-[800px] animate-fade-right animate-once animate-duration-700 animate-delay-400 animate-ease-in">
               <img src="/assets/icons/hero-section-scroll-icon.png" alt="" />
             </div>
           </div>
@@ -104,10 +104,10 @@ const HeroBanner = () => {
             />
           </div>
           <div className="flex flex-col md:h-[130vh] md:items-center sm:items-center justify-end md:pl-[30px] md:mb-5 sm:pl-5 ">
-            <div className="text-lavenderColor md:text-[64px] sm:text-[25px] font-subTitle ms:leading-[19.60px] animate-fade-up animate-once animate-duration-500 animate-delay-[222ms] animate-ease-out animate-alternate animate-fill-both">
+            <div className="text-lavenderColor md:text-[64px] sm:text-[25px] font-subTitle ms:leading-[19.60px] animate-fade-right animate-once animate-duration-700 animate-delay-200 animate-ease-in">
               {t("containers.HeroSectionContainer.title")}
             </div>
-            <div className="text-textblack text-[32px] sm:text-[15px] font-title1 leading-9 text-left animate-fade-up animate-once animate-duration-500 animate-delay-[222ms] animate-ease-out animate-alternate animate-fill-both">
+            <div className="text-textblack text-[32px] sm:text-[15px] font-title1 leading-9 text-left animate-fade-right animate-once animate-duration-700 animate-delay-300 animate-ease-in">
               {t("containers.HeroSectionContainer.subtitle")}
             </div>
           </div>

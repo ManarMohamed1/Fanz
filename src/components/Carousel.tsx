@@ -192,7 +192,7 @@ export default class Carousel extends React.Component<
               className={`transform  
                         ${
                           i18n.language === "en"
-                            ? "translate-x-[70px] translate-y-[-200px] sm:translate-x-0 sm:-translate-y-[450px]"
+                            ? "translate-x-[70px] translate-y-[-200px] xl:translate-x-[260px] sm:translate-x-0 sm:-translate-y-[450px]"
                             : "translate-x-[205px] translate-y-[-200px] lg:translate-x-[0px] xl:translate-x-[0px] sm:translate-x-[-72px] sm:translate-y-[-475px]"
                         }    
                         `}
@@ -276,7 +276,7 @@ export default class Carousel extends React.Component<
               className={`transform 
                         ${
                           i18n.language === "en"
-                            ? "translate-x-[70px] translate-y-[-200px] sm:translate-x-0 sm:-translate-y-[450px]"
+                            ? "translate-x-[70px] translate-y-[-200px] xl:translate-x-[260px] sm:translate-x-0 sm:-translate-y-[450px]"
                             : "translate-x-[205px] translate-y-[-200px] lg:translate-x-[0px] xl:translate-x-[0px] sm:translate-x-[-72px] sm:translate-y-[-515px]"
                         }  
                         `}
@@ -360,7 +360,7 @@ export default class Carousel extends React.Component<
               className={`transform
                         ${
                           i18n.language === "en"
-                            ? "translate-x-[70px] translate-y-[-200px] sm:translate-x-0 sm:-translate-y-[450px]"
+                            ? "translate-x-[70px] translate-y-[-200px] xl:translate-x-[260px] sm:translate-x-0 sm:-translate-y-[450px]"
                             : "translate-x-[205px] translate-y-[-200px]  lg:translate-x-[0px] xl:translate-x-[0px] sm:translate-x-[-72px] sm:translate-y-[-435px]"
                         }  
                         `}
