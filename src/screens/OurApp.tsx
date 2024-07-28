@@ -39,7 +39,7 @@ const OurApp = () => {
   return (
     <div
       id="ourApp"
-      className="mt-[700px] 2xl:mt-[750px] md:mt-[450px] sm:mt-[80px] flex justify-center items-center flex-col bg-darkBackground"
+      className="mt-[100px]  sm:mt-[80px] flex justify-center items-center flex-col bg-darkBackground"
     >
       <div className="text-lavenderColor text-5xl sm:text-2xl 2xl:text-6xl font-subTitle">
         {t("containers.appScreenshots.title")}

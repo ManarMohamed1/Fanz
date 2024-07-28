@@ -164,7 +164,7 @@ export default class Carousel extends React.Component<
 
               {/* title */}
               <p
-                className={`font-title1 font-bold text-center text-[40px] lg:text-4xl md:text-xl text-lavenderColor sm:text-lavenderColor sm:text-base
+                className={`font-title1 font-bold text-start text-[40px] lg:text-4xl md:text-xl text-lavenderColor sm:text-lavenderColor sm:text-base
               ${
                 i18n.language === "en"
                   ? "w-[550px] sm:-mt-52 sm:-ml-2 sm:w-[275px] sm:h-[100px]"
@@ -177,10 +177,10 @@ export default class Carousel extends React.Component<
               <br />
               {/* discreption */}
               <p
-                className={`font-subTitle1 text-lavenderColor w-[550px] font-light text-xl text-center lg:text-lg md:text-sm sm:text-xs sm:text-center sm:w-[280px]
+                className={`font-subTitle1 text-lavenderColor w-[550px] md:w-[360px] font-light text-xl text-center md:text-start lg:text-start lg:text-lg md:text-sm sm:text-xs sm:text-center sm:w-[280px]
               ${
                 i18n.language === "en"
-                  ? "sm:-mt-48 sm:-ml-6"
+                  ? "sm:-mt-[60px] sm:-ml-6"
                   : "sm:mr-10 sm:w-[300px] sm:h-[50px] sm:font-MadaExtraLight sm:text-lightBlack sm:opacity-80"
               }
               `}

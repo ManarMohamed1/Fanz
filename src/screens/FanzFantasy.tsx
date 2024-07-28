@@ -5,7 +5,7 @@ const FanzFantasy = () => {
 
   return (
     <>
-      <div className="container mx-auto h-[700px] translate-x-0 -translate-y-10 mt-20 mb-40 sm:mb-0 sm:mt-0">
+      <div className="container mx-auto h-[700px] translate-x-0 2xl:translate-x-[145px] -translate-y-10 mt-0 mb-40 sm:mb-0 sm:mt-0">
         <div className="flex justify-center items-center text-relative transform translate-y-12 lg:translate-y-5  sm:grid sm:grid-rows-2 grid-row-reverse">
           <div className="sm:order-2 lg:text-start lg:ps-[100px] xl:ps-[150px] sm:text-center ">
             <img

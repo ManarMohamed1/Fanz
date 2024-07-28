@@ -65,7 +65,7 @@ const Winners = () => {
     ${
       i18n.language === "en"
         ? "md:-mt-[560px] md:mb-[430px] sm:-mt-28"
-        : "md:-mt-20 md:h-[1100px] sm:-mt-16"
+        : "md:-mt-0 md:h-[1100px] sm:-mt-16"
     }`}
     >
       <div className="flex flex-col">
@@ -332,7 +332,7 @@ const Winners = () => {
               </div>
             </div>
 
-            <div className="sm:w-[360px] overflow-auto pl-16 sm:pl-0 md:pl-20 md:pr-52 pr-16 sm:rtl:pr-2 pt-4 pb-4 flex-col justify-start items-start gap-10 sm:gap-3 md:gap-7 flex">
+            <div className="sm:w-[360px] overflow-auto pl-16 sm:pl-0 md:pl-20 md:pr-[15rem] pr-16 sm:rtl:pr-2 pt-4 pb-4 flex-col justify-start items-start gap-10 sm:gap-3 md:gap-7 flex">
               {restofWinners?.map((winner, index) => {
                 console.log("Winner", winner);
 
@@ -344,7 +344,7 @@ const Winners = () => {
                   >
                     <div className="w-[842px] h-[65px] sm:w-[340px] md:w-[600px] sm:left-2 top-0 absolute shadow-inner bg-backgroundAppBar rounded-2xl"></div>
                     <div
-                      className={`left-[50.50px] top-[21px] absolute justify-start items-end gap-[165px] md:gap-[104px] inline-flex
+                      className={`left-[50.50px] top-[21px] absolute justify-start items-end gap-[165px] md:gap-[90px] inline-flex
                 ${
                   i18n.language === "en"
                     ? "sm:left-5 sm:gap-[30px]"

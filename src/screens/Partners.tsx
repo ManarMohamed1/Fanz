@@ -6,7 +6,7 @@ const Partners = () =>{
 
   return (
     <>
-      <div id={t("Partners")} className="mx-auto justify-center items-center flex">
+      <div id={t("Partners")} className="mx-auto justify-center items-center flex sm:mt-[75px]">
         <div className="relative bg-backgroundAppBar rounded-2xl h-[529px] w-[1280px] xl:h-[529px] xl:w-[990px] lg:h-[529px] lg:w-[990px] lg:-ml-2.5 ml-10 md:h-[329px] md:w-[690px] md:ml-[-30px] sm:hidden">
           <div
             className={`absolute xl:w-[1000px] lg:w-[980px]  ${
